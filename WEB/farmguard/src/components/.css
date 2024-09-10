@@ -1,0 +1,44 @@
+.home {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: white;
+  }
+  
+  .crop-upload {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .image-preview {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .results {
+    margin-top: 20px;
+  }
+  
