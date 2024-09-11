@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://your-ai-model-api-url.com/detect-disease';
+const API_URL = 'http://localhost:8080/predict';
 
 export const uploadCropImage = async (image) => {
   const formData = new FormData();
